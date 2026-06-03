@@ -1,0 +1,6 @@
+
+*************************** 1. row ***************************
+   case: test_requests
+   test: exception
+message: [exception] test (error) is failed. \nMessage: Incorrect integer value: '''' for column ''v_sterry_port'' at row 1\n
+

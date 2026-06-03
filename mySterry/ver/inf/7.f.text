@@ -1,0 +1,6 @@
+
+*************************** 1. row ***************************
+   case: test_requests
+   test: exception
+message: [exception] test (error) is failed. \nMessage: Incorrect integer value: ''mysterry'' for column ''p_case_id'' at row 1\n
+

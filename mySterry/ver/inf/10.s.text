@@ -1,0 +1,6 @@
+
+*************************** 1. row ***************************
+   case: test_requests
+   test: host.1
+message: [host.1] test (same) is success. \nOperand: 192.168.89.203\nValue: 192.168.89.203\n
+

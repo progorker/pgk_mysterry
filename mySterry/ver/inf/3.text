@@ -1,0 +1,16 @@
+*************************** 1. row ***************************
+   case: test_requests
+   test: exception
+message: [exception] test (error) is failed. \nMessage: Unknown column ''v_token'' in ''field list''\n
+*************************** 1. row ***************************
+      version: 3
+       status: RED
+         code: mysterry
+           id: 1
+success_count: 0
+ failed_count: 1
+   test_count: 1
+   case_count: 1
+*************************** 1. row ***************************
+                        To re-print: : $) call api_testor_result('_token_', 1);
+To get source file of [a] test case: : $) call api_testor_source('_token_', 1, 'a');

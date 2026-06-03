@@ -1,0 +1,24 @@
+*************************** 1. row ***************************
+   case: test_requests
+   test: port.1
+message: [port.1] test (equals) is failed. \nOperand: -1\nValue: 8311\n
+*************************** 2. row ***************************
+   case: test_requests
+   test: auth_token.1
+message: [auth_token.1] test (same) is failed. \nOperand: \nAZDKOGOEWGDAH\nValue: AZDKOGOEWGDAH\n
+*************************** 3. row ***************************
+   case: test_requests
+   test: path.1
+message: [path.1] test (same) is failed. \nOperand: \n/testor/\nValue: /testor/\n
+*************************** 1. row ***************************
+      version: 13
+       status: RED
+         code: mysterry
+           id: 1
+success_count: 1
+ failed_count: 3
+   test_count: 4
+   case_count: 1
+*************************** 1. row ***************************
+                        To re-print: : $) call api_testor_result('_token_', 1);
+To get source file of [a] test case: : $) call api_testor_source('_token_', 1, 'a');

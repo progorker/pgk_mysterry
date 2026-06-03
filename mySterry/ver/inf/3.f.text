@@ -1,0 +1,6 @@
+
+*************************** 1. row ***************************
+   case: test_requests
+   test: exception
+message: [exception] test (error) is failed. \nMessage: Unknown column ''v_token'' in ''field list''\n
+

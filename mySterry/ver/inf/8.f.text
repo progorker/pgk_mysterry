@@ -1,0 +1,6 @@
+
+*************************** 1. row ***************************
+   case: test_requests
+   test: exception
+message: [exception] test (error) is failed. \nMessage: Incorrect number of arguments for PROCEDURE mytestorproxy.api_testor_same; expected 7, got 8\n
+

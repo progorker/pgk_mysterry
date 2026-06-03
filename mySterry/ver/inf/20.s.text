@@ -1,0 +1,22 @@
+
+*************************** 1. row ***************************
+   case: test_requests
+   test: host.1
+message: [host.1] test (same) is success. \nOperand: 192.168.89.203\nValue: 192.168.89.203\n
+*************************** 2. row ***************************
+   case: test_requests
+   test: port.1
+message: [port.1] test (equals) is success. \nOperand: 8311\nValue: 8311\n
+*************************** 3. row ***************************
+   case: test_requests
+   test: auth_token.1
+message: [auth_token.1] test (same) is success. \nOperand: AZDKOGOEWGDAH\nValue: AZDKOGOEWGDAH\n
+*************************** 4. row ***************************
+   case: test_requests
+   test: json_data.1
+message: [json_data.1] test (same) is success. \nOperand: {__dq__n__dq__:2}\nValue: {__dq__n__dq__:2}\n
+*************************** 5. row ***************************
+   case: test_requests
+   test: path.1
+message: [path.1] test (same) is success. \nOperand: /testor/\nValue: /testor/\n
+

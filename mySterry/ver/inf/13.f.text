@@ -1,0 +1,14 @@
+
+*************************** 1. row ***************************
+   case: test_requests
+   test: port.1
+message: [port.1] test (equals) is failed. \nOperand: -1\nValue: 8311\n
+*************************** 2. row ***************************
+   case: test_requests
+   test: auth_token.1
+message: [auth_token.1] test (same) is failed. \nOperand: \nAZDKOGOEWGDAH\nValue: AZDKOGOEWGDAH\n
+*************************** 3. row ***************************
+   case: test_requests
+   test: path.1
+message: [path.1] test (same) is failed. \nOperand: \n/testor/\nValue: /testor/\n
+
