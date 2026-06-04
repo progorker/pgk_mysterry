@@ -17,6 +17,7 @@ begin
   declare v_test_id int;
   declare v_error_message text;
   declare v_request longtext;
+  declare v_sterry_request longtext;
   declare v_sterry_host varchar(8192);
   declare v_sterry_port int;
   declare v_sterry_auth_token varchar(8192);
@@ -33,7 +34,7 @@ begin
 
   call mytestorproxy.api_testor_suite_case( p_token, v_suite_id, v_case_id, p_suite_code, 'test_requests' );
 
-  set v_request = concat( '192.168.89.203\r\n8311\r\nAZDKOGOEWGDAH\r\n{\"n\":2}\r\n/testor/\r\n\r\n' );
+  set v_request = concat( '192.168.89.203\r\n8311\r\nAZDKOGOEWGDAH\r\n', sterry_escape('{\"n\":2}'), '\r\n/testor/\r\n\r\n' );
   set v_sterry_host = '';
   set v_sterry_port = -1;
   set v_sterry_path = '';
@@ -47,5 +48,16 @@ begin
   call mytestorproxy.api_testor_same( p_token, v_test_id, v_suite_id, v_case_id, 'auth_token.1', v_sterry_auth_token, 'AZDKOGOEWGDAH' );
   call mytestorproxy.api_testor_same( p_token, v_test_id, v_suite_id, v_case_id, 'json_data.1', v_sterry_json_data, '{\"n\":2}' );
   call mytestorproxy.api_testor_same( p_token, v_test_id, v_suite_id, v_case_id, 'path.1', v_sterry_path, '/testor/' );
+
+  set v_request = concat( '192.168.89.203\r\n8311\r\nAZDKOGOEWGDAH\r\n', sterry_escape('{\"n\":2}'), '\r\n/testor/\r\n\r\n' );
+  set v_sterry_request = '';
+  set v_sterry_host = '192.168.89.203';
+  set v_sterry_port = 8311;
+  set v_sterry_auth_token = 'AZDKOGOEWGDAH';
+  set v_sterry_json_data = '{\"n\":2}';
+  set v_sterry_path = '/testor/';
+
+  call sterry_merge_request( v_sterry_request, v_sterry_host, v_sterry_port, v_sterry_auth_token, v_sterry_json_data, v_sterry_path );
+  call mytestorproxy.api_testor_same( p_token, v_test_id, v_suite_id, v_case_id, 'request.1', v_sterry_request, v_request );
 end;$$
 delimiter ;
