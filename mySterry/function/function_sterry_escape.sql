@@ -25,6 +25,7 @@ begin
   set v_output = replace( v_output, '\n', '__nl__' );
   set v_output = replace( v_output, '\r', '__cr__' );
   set v_output = replace( v_output, '\t', '__tb__' );
+  set v_output = replace( v_output, '`', '__td__' );
   set v_output = replace( v_output, '\\', '__sl__' );
   return v_output;
 end;$$
