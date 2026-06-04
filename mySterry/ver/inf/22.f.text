@@ -1,0 +1,6 @@
+
+*************************** 1. row ***************************
+   case: test_requests
+   test: exception
+message: [exception] test (error) is failed. \nMessage: PROCEDURE mytestortested.sterry_merge_request does not exist\n
+
