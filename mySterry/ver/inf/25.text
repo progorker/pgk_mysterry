@@ -1,0 +1,16 @@
+*************************** 1. row ***************************
+   case: test_requests
+   test: request.1
+message: [request.1] test (same) is failed. \nOperand: 192.168.89.203\n8311\nAZDKOGOEWGDAH\n{"n":2}\n/testor/\n\n\nValue: 192.168.89.203\n8311\nAZDKOGOEWGDAH\n{__dq__n__dq__:2}\n/testor/\n\n\n
+*************************** 1. row ***************************
+      version: 25
+       status: RED
+         code: mysterry
+           id: 2
+success_count: 5
+ failed_count: 1
+   test_count: 6
+   case_count: 1
+*************************** 1. row ***************************
+                        To re-print: : $) call api_testor_result('_token_', 2);
+To get source file of [a] test case: : $) call api_testor_source('_token_', 2, 'a');

@@ -1,0 +1,12 @@
+*************************** 1. row ***************************
+      version: 27
+       status: GREEN
+         code: mysterry
+           id: 2
+success_count: 6
+ failed_count: 0
+   test_count: 6
+   case_count: 1
+*************************** 1. row ***************************
+                        To re-print: : $) call api_testor_result('_token_', 2);
+To get source file of [a] test case: : $) call api_testor_source('_token_', 2, 'a');

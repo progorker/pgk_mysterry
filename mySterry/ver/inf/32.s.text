@@ -1,0 +1,26 @@
+
+*************************** 1. row ***************************
+   case: test_requests
+   test: host.1
+message: [host.1] test (same) is success. \nOperand: 192.168.89.203\nValue: 192.168.89.203\n
+*************************** 2. row ***************************
+   case: test_requests
+   test: port.1
+message: [port.1] test (equals) is success. \nOperand: 8311\nValue: 8311\n
+*************************** 3. row ***************************
+   case: test_requests
+   test: auth_token.1
+message: [auth_token.1] test (same) is success. \nOperand: AZDKOGOEWGDAH\nValue: AZDKOGOEWGDAH\n
+*************************** 4. row ***************************
+   case: test_requests
+   test: json_data.1
+message: [json_data.1] test (same) is success. \nOperand: {"n":2}\nValue: {"n":2}\n
+*************************** 5. row ***************************
+   case: test_requests
+   test: path.1
+message: [path.1] test (same) is success. \nOperand: /testor/\nValue: /testor/\n
+*************************** 6. row ***************************
+   case: test_requests
+   test: request.1
+message: [request.1] test (same) is success. \nOperand: 192.168.89.203\r\n8311\r\nAZDKOGOEWGDAH\r\n{__dq__n__dq__:2}\r\n/testor/\r\n\r\n\nValue: 192.168.89.203\r\n8311\r\nAZDKOGOEWGDAH\r\n{__dq__n__dq__:2}\r\n/testor/\r\n\r\n\n
+

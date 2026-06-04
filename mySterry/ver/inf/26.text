@@ -1,0 +1,16 @@
+*************************** 1. row ***************************
+   case: test_requests
+   test: exception
+message: [exception] test (error) is failed. \nMessage: PROCEDURE mytestortested.sterry_parse_request does not exist\n
+*************************** 1. row ***************************
+      version: 26
+       status: RED
+         code: mysterry
+           id: 2
+success_count: 0
+ failed_count: 1
+   test_count: 1
+   case_count: 1
+*************************** 1. row ***************************
+                        To re-print: : $) call api_testor_result('_token_', 2);
+To get source file of [a] test case: : $) call api_testor_source('_token_', 2, 'a');
