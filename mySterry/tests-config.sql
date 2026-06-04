@@ -11,4 +11,4 @@ set @g_testor_username = 'mytestor';
 set @g_testor_password = 'rzutomqahegpnyx';
 set @g_suite_code = 'mysterry';
 set @g_src_dir = '/bioogr/psk-19/mySterry';
-set @g_last_version = 1;
+set @g_last_version = 20;
